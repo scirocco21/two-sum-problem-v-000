@@ -13,7 +13,7 @@ function findPair(array, sum){
 }
 
 
-function sumFinder(array, sum){
+function bruteForceTwoSum(array, sum){
   let resultsArray = [];
   while(array.length != 0){
     currentPair = findPair(array, sum)
